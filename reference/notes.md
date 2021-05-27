@@ -1,3 +1,11 @@
+## Dependency
+
+```
+sudo apt install gfortran libnetcdff-dev libnetcdf-dev ncview netcdf-bin 
+```
+
+
+
 ## Setting up the repository
 
 Clone the repository and get the large files that are not stored in the repository.
