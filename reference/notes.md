@@ -1,7 +1,7 @@
 ## Dependency
 
 ```
-sudo apt install gfortran libnetcdff-dev libnetcdf-dev ncview netcdf-bin 
+sudo apt install gfortran libnetcdff-dev libnetcdf-dev ncview netcdf-bin nco
 ```
 
 
