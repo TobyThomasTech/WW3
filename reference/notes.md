@@ -68,3 +68,12 @@ export PATH
 export PATH="$PATH:/home/toby/Projects/WW3/model/bin:/home/toby/Projects/WW3/model/exe"
 ```
 
+## Wind data
+For the case where the wind data was collected from [Climate Data Store](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) the following modifications are necessary:
+1. Rename variables `u10` and `v10` to `UGRD_10maboveground` and `VGRD_10maboveground`.
+2. Reverse the latitudes. 
+These changes can ge achived as follows:
+```
+ncrename -v u10,UGRD_10maboveground -v v10,VGRD_10maboveground file.nc
+ncpdq -h -O -a -latitude input.nc output.nc
+```
