@@ -96,8 +96,6 @@ eqs/NL1.tex \
 eqs/NL2.tex \
 eqs/NL1.tex \
 eqs/NL3.tex \
-eqs/NL4.tex \
-eqs/NL5.tex \
 eqs/NLS.tex \
 eqs/ST1.tex \
 eqs/ST2.tex \
@@ -166,7 +164,7 @@ run/core.tex \
 run/fig_log.tex \
 run/fig_gspl.tex \
 run/das.tex \
-run/sup.tex \
+run/aux.tex \
 run/ww3_grid.tex \
 run/ww3_strt.tex \
 run/ww3_prep.tex \
@@ -206,7 +204,7 @@ sys/fig_w3init.tex \
 sys/fig_w3wave.tex \
 sys/files_wm.tex \
 sys/das.tex \
-sys/sup.tex \
+sys/aux.tex \
 sys/fig_prep.tex \
 sys/fig_shel.tex \
 sys/fig_post.tex \

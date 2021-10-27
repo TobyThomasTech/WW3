@@ -1,11 +1,9 @@
 $ WAVEWATCH III shell input file
 $ ------------------------------
-   F F
-   T T
+   F T
+   F T
    T F
-   F F
-   F F
-   F F
+   F
    F
    F
    F

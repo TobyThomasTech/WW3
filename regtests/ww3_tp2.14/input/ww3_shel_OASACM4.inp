@@ -16,9 +16,7 @@ $ Include ice and mud parameters only if IC1/2/3/4 used :
    F F     Water levels
    F F     Currents
    C F     Winds
-   F F     Ice concentrations
-   F F     Atmospheric momentum
-   F F     Air density
+   F       Ice concentrations
    F       Assimilation data : Mean parameters
    F       Assimilation data : 1-D spectra
    F       Assimilation data : 2-D spectra
@@ -102,8 +100,7 @@ $ Type 4 : Restart files (no additional data required).
 $                               The data file is restartN.ww3, see
 $                               w3iors.ftn for additional doc.
 $
-   20110902 020000   3600  20110902 030000 F T
-CHA RHO
+   20110902 020000   3600  20110902 030000
 $
 $ Type 5 : Boundary data (no additional data required).
 $                               The data file is nestN.ww3, see

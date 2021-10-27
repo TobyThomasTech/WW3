@@ -16,9 +16,7 @@ $ Include ice and mud parameters only if IC1/2/3/4 used :
    F F     Water levels
    F F     Currents
    F F     Winds
-   C F     Ice concentrations
-   F F     Atmospheric momentum
-   F F     Air density
+   C       Ice concentrations
    F       Assimilation data : Mean parameters
    F       Assimilation data : 1-D spectra
    F       Assimilation data : 2-D spectra

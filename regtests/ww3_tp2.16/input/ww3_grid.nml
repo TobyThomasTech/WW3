@@ -92,7 +92,6 @@
 !    'RECT' : rectilinear
 !    'CURV' : curvilinear
 !    'UNST' : unstructured (triangle-based)
-!    'SMCG' : Spherical Multiple-Cell grid.
 !
 ! * coordinate system can be : 
 !    'SPHE' : Spherical (degrees)
@@ -138,7 +137,7 @@
 &GRID_NML
   GRID%NAME         =  'A50SMC Grid'
   GRID%NML          =  '../input/namelists_A50SMC.nml'
-  GRID%TYPE         =  'SMCG'
+  GRID%TYPE         =  'RECT'
   GRID%COORD        =  'SPHE'
   GRID%CLOS         =  'SMPL'
   GRID%ZLIM         =  -0.1
