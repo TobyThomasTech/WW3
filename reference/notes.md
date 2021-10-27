@@ -14,7 +14,7 @@ Clone the repository and get the large files that are not stored in the reposito
 git clone https://github.com/TobyThomasTech/WW3.git
 cd WW3
 ./model/bin/w3_setup model
-./model/bin/ww3_from_ftp.sh
+~~./model/bin/ww3_from_ftp.sh~~
 ./model/bin/w3_setup ./model -c gnu -s Katrina
 ./model/bin/w3_automake
 ```
